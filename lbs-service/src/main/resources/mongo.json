@@ -1,0 +1,15 @@
+{
+  "namespace": "com.wwx.json",
+  "methods": [
+    {
+      "id": "getList",
+      "query": {
+        "coord":{
+
+        }
+      }
+    },
+    {
+    }
+  ]
+}

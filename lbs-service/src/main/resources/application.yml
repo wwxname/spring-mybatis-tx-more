@@ -1,0 +1,26 @@
+server:
+    port: 8080
+    tomcat:
+      uri-encoding: UTF-8
+      max-threads: 2   #最大并发数
+      max-connections: 3  #接受和处理的最大连接数
+      acceptCount: 3      #可以放到处理队列中的请求数
+
+spring:
+  # 测试的时候可以不用mysql
+  # datasource:
+    # url: jdbc:mysql://127.0.0.1:3306/jpa_demo?characterEncoding=utf-8&useSSL=true
+    # username: root
+    # password: root
+    # driver-class-name: com.mysql.jdbc.Driver
+  h2: # 使用H2 控制台   访问页面http://localhost:8080/h2-console/，
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+#日志的方式打印sql
+logging:
+  level:
+    com.wayz.lbs.service.mapper: DEBUG
