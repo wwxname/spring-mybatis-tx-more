@@ -2,7 +2,7 @@ package com.plusme.lbs.service.controller;
 
 import com.plusme.lbs.service.mapper.StaticEntity;
 import com.plusme.lbs.service.mapper.StaticMapper;
-import com.plusme.lbs.service.res.StaticRepository;
+import com.plusme.lbs.service.repository.StaticRepository;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;

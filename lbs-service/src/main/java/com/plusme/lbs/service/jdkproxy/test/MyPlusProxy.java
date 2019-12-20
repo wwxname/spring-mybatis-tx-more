@@ -1,4 +1,4 @@
-package com.plusme.lbs.service.jdktest;
+package com.plusme.lbs.service.jdkproxy.test;
 
 import java.io.Serializable;
 import java.lang.reflect.*;

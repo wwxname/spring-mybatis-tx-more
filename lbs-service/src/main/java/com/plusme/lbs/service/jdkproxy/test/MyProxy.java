@@ -1,4 +1,4 @@
-package com.plusme.lbs.service.jdktest;
+package com.plusme.lbs.service.jdkproxy.test;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

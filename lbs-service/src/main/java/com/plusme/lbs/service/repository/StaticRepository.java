@@ -1,4 +1,4 @@
-package com.plusme.lbs.service.res;
+package com.plusme.lbs.service.repository;
 
 import com.plusme.lbs.service.mapper.StaticEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

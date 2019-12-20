@@ -13,8 +13,8 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @SpringBootApplication
-@ComponentScan("com.wayz")
-@EnableJpaRepositories(value = "com.wayz.lbs.service.res")
+@ComponentScan("com.plusme")
+@EnableJpaRepositories(value = "com.plusme.lbs.service.repository")
 @MapperScan("com.wayz.lbs.service.mapper")
 public class ServiceApp {
 

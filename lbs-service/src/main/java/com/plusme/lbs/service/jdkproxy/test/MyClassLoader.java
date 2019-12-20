@@ -1,4 +1,4 @@
-package com.plusme.lbs.service.jdktest;
+package com.plusme.lbs.service.jdkproxy.test;
 
 /**
  * @author plusme

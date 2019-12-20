@@ -1,4 +1,4 @@
-package com.plusme.lbs.service;
+package com.plusme.lbs.service.netty;
 
 /**
  * @author plusme
