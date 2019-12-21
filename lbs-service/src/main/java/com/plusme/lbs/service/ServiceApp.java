@@ -1,5 +1,6 @@
 package com.plusme.lbs.service;
 
+import io.netty.channel.nio.NioEventLoop;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,6 +18,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @EnableJpaRepositories(value = "com.plusme.lbs.service.repository")
 @MapperScan("com.wayz.lbs.service.mapper")
 public class ServiceApp {
+    NioEventLoop nioEventLoop;
 
     private static LinkedBlockingQueue<Runnable> queue = new LinkedBlockingQueue<>(1024);
 

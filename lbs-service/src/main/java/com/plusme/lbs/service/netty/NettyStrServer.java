@@ -59,10 +59,10 @@ public final class NettyStrServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
-                            ChannelPipeline p = ch.pipeline();
-                            ch.pipeline().addLast(new LineBasedFrameDecoder(1024));
-                            ch.pipeline().addLast(new StringDecoder());
-                            p.addLast(serverHandler);
+//                            ChannelPipeline p = ch.pipeline();
+//                            ch.pipeline().addLast(new LineBasedFrameDecoder(1024));
+//                            ch.pipeline().addLast(new StringDecoder());
+//                            p.addLast(serverHandler);
                         }
                     });
 
